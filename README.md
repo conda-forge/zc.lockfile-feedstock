@@ -11,6 +11,18 @@ Summary: Basic inter-process locks
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/zc.lockfile-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/zc.lockfile-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/zc.lockfile-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/zc.lockfile-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/zc.lockfile-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/zc-lockfile-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/zc.lockfile/badges/version.svg)](https://anaconda.org/conda-forge/zc.lockfile)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/zc.lockfile/badges/downloads.svg)](https://anaconda.org/conda-forge/zc.lockfile)
+
 Installing zc.lockfile
 ======================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `zc.lockfile` available on your pl
 ```
 conda search zc.lockfile --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/zc.lockfile-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/zc.lockfile-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/zc.lockfile-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/zc.lockfile-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/zc.lockfile-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/zc-lockfile-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/zc.lockfile/badges/version.svg)](https://anaconda.org/conda-forge/zc.lockfile)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/zc.lockfile/badges/downloads.svg)](https://anaconda.org/conda-forge/zc.lockfile)
 
 
 Updating zc.lockfile-feedstock
