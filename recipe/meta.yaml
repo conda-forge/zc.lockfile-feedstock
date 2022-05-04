@@ -11,16 +11,16 @@ source:
 
 build:
   preserve_egg_dir: True
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
-    - python
+    - python >=2
     - pip
   run:
-    - python
+    - python >=2
     - setuptools
 
 test:
@@ -38,5 +38,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - pmlandwehr
     - carlodri
