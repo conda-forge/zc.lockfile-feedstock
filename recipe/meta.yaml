@@ -1,5 +1,5 @@
 {% set name = "zc.lockfile" %}
-{% set version = "2.0" %}
+{% set version = "3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,13 +7,13 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 307ad78227e48be260e64896ec8886edc7eae22d8ec53e4d528ab5537a83203b
+  sha256: e58ffd9dd62c6d432e8682bfa196c90cac3e5c1e3f24dae3b89d60822855d788
 
 build:
-  preserve_egg_dir: True
-  number: 1
+  preserve_egg_dir: true
+  number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -33,7 +33,7 @@ about:
   license: ZPL-2.1
   license_file: LICENSE.txt
   license_family: Other
-  summary: 'Basic inter-process locks'
+  summary: Basic inter-process locks
   dev_url: https://github.com/zopefoundation/zc.lockfile
 
 extra:
