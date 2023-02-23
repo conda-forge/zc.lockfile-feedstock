@@ -5,7 +5,7 @@ Home: https://github.com/zopefoundation/zc.lockfile
 
 Package license: ZPL-2.1
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/zc.lockfile-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/zc.lockfile-feedstock/blob/main/LICENSE.txt)
 
 Summary: Basic inter-process locks
 
@@ -17,8 +17,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4443&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zc.lockfile-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4443&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/zc.lockfile-feedstock?branchName=main">
       </a>
     </td>
   </tr>
