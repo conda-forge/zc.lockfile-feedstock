@@ -1,11 +1,11 @@
-About zc.lockfile
-=================
+About zc.lockfile-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/zc.lockfile-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/zopefoundation/zc.lockfile
 
 Package license: ZPL-2.1
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/zc.lockfile-feedstock/blob/main/LICENSE.txt)
 
 Summary: Basic inter-process locks
 
