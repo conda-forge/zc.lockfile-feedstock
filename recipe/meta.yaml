@@ -1,5 +1,5 @@
 {% set name = "zc.lockfile" %}
-{% set version = "3.0" %}
+{% set version = "3.0.post1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e58ffd9dd62c6d432e8682bfa196c90cac3e5c1e3f24dae3b89d60822855d788
+  sha256: adb2ee6d9e6a2333c91178dcb2c9b96a5744c78edb7712dc784a7d75648e81ec
 
 build:
   preserve_egg_dir: true
